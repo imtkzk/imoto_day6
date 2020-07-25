@@ -1,0 +1,19 @@
+{
+  "name": "corporate_sample",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt build --target static && nuxt export",
+    "serve": "nuxt serve",
+    "server": "http-server ./docs -o -p 8000"
+  },
+  "dependencies": {
+    "nuxt": "^2.13.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
